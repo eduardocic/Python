@@ -21,3 +21,13 @@ plt.ylabel("Resultado")
 plt.title("Seno e Cosseno")
 plt.grid()
 plt.legend()
+
+""" Plotando em outra figura """
+plt.figure()
+plt.plot(x, COS, label = 'cosseno') 
+plt.xlabel("Graus")
+plt.ylabel("Resultado")
+plt.grid()
+
+
+
